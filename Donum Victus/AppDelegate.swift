@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
-        GMSServices.provideAPIKey("AIzaSyB5GcMCsgSbg_DS5g3k6RlmrvwxwBFNVds")
-        GMSPlacesClient.provideAPIKey("AIzaSyDrHjhmsWF52rbvwniwAa_1kvgTM2qu8h8")
+        GMSServices.provideAPIKey("GOOGLE_MAPS_API_KEY")
+        GMSPlacesClient.provideAPIKey("GOOGLE_PLACES_API_KEY")
         UINavigationBar.appearance().barTintColor = UIColor.init(displayP3Red: 33.0/255.0, green: 33.0/255.0, blue: 33.0/255.0, alpha: 1.0)
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
         IQKeyboardManager.sharedManager().enable = true
