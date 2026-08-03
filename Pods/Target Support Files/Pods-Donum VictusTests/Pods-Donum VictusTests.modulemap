@@ -1,6 +1,0 @@
-framework module Pods_Donum_VictusTests {
-  umbrella header "Pods-Donum VictusTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
